@@ -1,0 +1,13 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "interfaces-design",
+  "displayName": "Interfaces Design Engineering",
+  "description": "Design engineering suite adapted from jakubkrehel/skills: UI polish, typography, OKLCH color systems, layout, WCAG 2.2 accessibility, UX writing, Figma build, and component stress-testing.",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Review this UI component against WCAG 2.2 and visual hierarchy",
+    "Generate an OKLCH color ramp with contrast validation",
+    "Design 3 distinct variants of this hero section"
+  ]
+}

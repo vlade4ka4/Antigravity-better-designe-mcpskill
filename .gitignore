@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Local settings
+.env
+.env.local
+
+# Temp workbench / test artifacts
+app/test-break/
+app/states/

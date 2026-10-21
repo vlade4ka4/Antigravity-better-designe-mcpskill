@@ -1,0 +1,21 @@
+{
+  "name": "interfaces-design",
+  "version": "1.0.0",
+  "description": "Antigravity Design Engineering MCP & Skills Plugin",
+  "type": "module",
+  "main": "mcp-server.mjs",
+  "scripts": {
+    "start": "node mcp-server.mjs",
+    "test": "node test-mcp.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "plugin",
+    "mcp",
+    "design-engineering",
+    "oklch",
+    "wcag"
+  ],
+  "author": "Antigravity Design Team",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "interfaces-design-mcp": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/mcp-server.mjs"
+      ],
+      "env": {
+        "DESIGN_STRICT_MODE": "true"
+      }
+    }
+  }
+}
