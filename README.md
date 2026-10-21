@@ -15,7 +15,7 @@
 
 ---
 
-## 📁 Структура репозитория
+##  Структура репозитория
 
 ```text
 c:\harness\designe/
@@ -50,7 +50,7 @@ c:\harness\designe/
 
 ---
 
-## 🛠 Инструменты MCP-сервера (`interfaces-design-mcp`)
+##  Инструменты MCP-сервера (`interfaces-design-mcp`)
 
 MCP-сервер работает по стандартному протоколу stdio (JSON-RPC 2.0) и предоставляет агенту точные математические расчёты:
 
@@ -73,7 +73,7 @@ node test-mcp.mjs
 
 ---
 
-## 🚀 Руководство по подключению к Antigravity
+##  Руководство по подключению к Antigravity
 
 Вы можете подключить плагин любым из следующих способов:
 
@@ -111,7 +111,7 @@ Copy-Item -Path "c:\harness\designe" -Destination "$HOME\.gemini\config\plugins\
 
 ---
 
-## 💬 Сценарии использования в чате Antigravity
+##  Сценарии использования в чате Antigravity
 
 | Команда / Запрос | Что делает агент |
 | :--- | :--- |
@@ -122,21 +122,5 @@ Copy-Item -Path "c:\harness\designe" -Destination "$HOME\.gemini\config\plugins\
 | `/interface-review` | Анализирует git diff или PR на предмет потери `:focus-visible`, `aria-label`, адаптивности и регрессий. |
 | `/build-design <ссылка на Figma / скриншот>` | Извлекает токены, маппит их на систему проекта (округление `<= 2px`) и верстает компонент. |
 
----
 
-## 📦 Публикация в Git
 
-1. Инициализируйте репозиторий и создайте первый коммит:
-   ```bash
-   cd c:\harness\designe
-   git init
-   git add .
-   git commit -m "feat: initial commit of interfaces-design plugin & mcp server"
-   ```
-
-2. Привяжите удалённый репозиторий на GitHub и отправьте код:
-   ```bash
-   git branch -M main
-   git remote add origin https://github.com/<ваш-аккаунт>/interfaces-design.git
-   git push -u origin main
-   ```
